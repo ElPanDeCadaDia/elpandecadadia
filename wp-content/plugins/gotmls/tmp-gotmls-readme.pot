@@ -1,0 +1,762 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Anti-Malware Security and Brute-Force Firewall"
+msgstr ""
+
+#. Short description.
+msgid "This Anti-Malware scanner searches for Malware, Viruses, and other security threats and vulnerabilities on your server and it helps you fix them."
+msgstr ""
+
+#. Screenshot description.
+msgid "The menu showing Anti-Malware options."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Scan Setting page in the admin."
+msgstr ""
+
+#. Screenshot description.
+msgid "An example scan that found some threats."
+msgstr ""
+
+#. Screenshot description.
+msgid "The results window when \"Automatic Repair\" fixes threats."
+msgstr ""
+
+#. Screenshot description.
+msgid "The Quarantine showing threats that have been fix already."
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically remove Known Threats and Back-doors."
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically block SoakSoak and other malware from exploiting the Revolution Slider Vulnerability."
+msgstr ""
+
+#. Found in description list item.
+msgid "Upgrade vulnerable versions of timthumb scripts."
+msgstr ""
+
+#. Found in description list item.
+msgid "Run a Quick Scan from the admin menu."
+msgstr ""
+
+#. Found in description list item.
+msgid "Run a Complete Scan from the Settings Page."
+msgstr ""
+
+#. Found in description list item.
+msgid "Download Definition Updates to protect against new threats."
+msgstr ""
+
+#. Found in description list item.
+msgid "Patch wp-login to block Brute-Force attacks."
+msgstr ""
+
+#. Found in description list item.
+msgid "Check the integrity of your WordPress Core files."
+msgstr ""
+
+#. Found in description list item.
+msgid "Automatically Download Definition Updates When running a Complete Scan."
+msgstr ""
+
+#. Found in description list item.
+msgid "Clarus Dignus for design suggestions and graphic design work on the banner image."
+msgstr ""
+
+#. Found in description list item.
+msgid "Jelena Kovacevic and Andrew Kurtis of webhostinghub.com for providing the Spanish translation."
+msgstr ""
+
+#. Found in description list item.
+msgid "Marcelo Guernieri for the Brazilian Portuguese translation."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Features:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Premium Features:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Updated November 19th"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Register this plugin at <a href=\"http://gotmls.net/\">GOTMLS.NET</a> and get access to new definitions of \"Known Threats\" and added features like Automatic Removal, plus patches for specific security vulnerabilities like old versions of timthumb. Updated definition files can be downloaded automatically within the admin once your Key is registered. Otherwise, this plugin just scans for \"Potential Threats\" and leaves it up to you to identify and remove the malicious ones."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "NOTICE: This plugin make use of a \"phone home\" feature to check for updates. This is not unlike what WordPress already does with all your plugins. Staying up-to-date is an essential part of any worthwhile security plugin and it will let you know when there are new plugin and definition update available. If you're allergic to \"phone home\" scripts then don't use this plugin (or WordPress at all for that matter)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Special thanks to:</strong>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Download and unzip the plugin into your WordPress plugins directory (usually <code>/wp-content/plugins/</code>)."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in your WordPress Admin."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Register on gotmls.net and download the newest definition update to scan for Known Threats."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed PHP Warning about in_array function expecting parameter 2 to be an array, found by Georgey B."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made a few minor cosmetic changes and fixed a few other small bugs in the interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the Nonce Token error caused by W3 Total Cache breaking the set_transient function in WordPress."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the Brazilian Portuguese language files, thanks to Marcelo Guernieri for the translation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed the admin menu and also some links that did not work on Windows server."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Core Files to the Quick Scan list on the admin menu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a nonce token to prevent Cross-Site Request Forgery by admins who are logged-in from another site."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hardened against XSS vulnerability triggered by the file names being scanned (thanks to Mahadev Subedi)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved brute-force patch compatibility with alternate wp-config.php location."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Had to remove the encoding of the Default Definitions to meet the WordPress Plugin Guidelines."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the JavaScript in the new Brute-Force login patch so that it works with caching enabled on the login page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the Brute-Force login patch with custom fields and JavaScript. "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a Save button to that Scan Settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug in the XMLRPC Patch \"Unblock\" feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a link to purge the deleted Quarantine items from the database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added firewall option to Block all XMLRPC calls."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few cosmetic bugs in the quarantine and firewall options."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bugs in the Quarantine that was memory_limit errors if there number of files in the was too high."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the highlight malicious code feature back to the Quarantine file viewer."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added the ability to change the admin username if the current username is \"admin\"."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the code in the Brute-Force Protection patch."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few bugs in the Core Files Check that was preventing it from fixing some unusual file modifications."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a major bug that made multisite scan extremely slow and sometimes error out."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved all ajax call out of the init function and into their own functions for better handling time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved the quarantine files into the database and deleted the old directory in uploads."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed some minor formatting issues in the HTML output on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a warning message if base64_decode has been disabled."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hardened against injected HTML content by encoding the tags with variables."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed debug option to exclude individual definitions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hardened admin_init with current_user_can and realpath on the quarantine file deletion (thanks to J.D. Grimes)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed another XSS vulnerabilities in the admin (thanks to James H.)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Hardened against XSS vulnerabilities in the admin (thanks to Tim Coen)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added feature to restore default settings for Exclude Extensions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed the encoding on the index.php file in the Quarantine to make it more human-readable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few small bugs that were throwing PHP Notices in some configurations and added more info to some error messages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Extended execution_time during the Fix process to increase the number of files that could be fixed at a time."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a Quarantine log to the database."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a couple of minor bugs that would throw PHP notices."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Created an automatic update feature that downloads any new definition updates before starting the scan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added WordPress Core files to the new definitions update process and included a scan option to check the integrity of the Core files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Automatically whitelisted the unmodified WordPress Core files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made more improvements to the Brute-Force protection patch and other minor cosmetic changes to the interface."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Protected the HTML in my plugin from filter injections and fixed a few other minor bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a problem with deleting files from the Quarantine folder."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a descriptive reason to the error displayed if the fix was unsuccessful."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added link to restore the default location of the Examine Results window."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the encoding of definition updates so that they would not be blocked by poorly written firewall rules."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Suppressed the \"Please make a donation\" nag if the fix was unsuccessful, to avoid confusion over premium services."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Removed debug alert from initial session check."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved rewrite compatibility of session check for the Brute-Force Protection Installation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved session check for the option to Install Brute-Force Protection and added an error message on failure."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved support for Multisite by only allowing Network Admins access to the Anti-Malware menu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added link to view a simple scan history on the Quarantine page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated firewall to better protect agains new variations of the RevSlider Exploit."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved check for session support before giving the option to Install Brute-Force patch."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to skip scanning the Quarantined files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated Brute-Force patch to fix the problem of being included more that once."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few minor bugs (better window positioning and css, cleaner results page, updated new help tab, etc.)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made sure that the plugin does not check my servers for updates unless you have registered (this opt-in requirement is part of the WordPress Repository Guidelines)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added exception for the social.png files to the skip files by extension list."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed removal of Known Threats from files in the Quarantine directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Block SoakSoak and other malware from exploiting the Slider Revolution Vulnerability (THIS IS A WIDESPREAD THREAT RIGHT NOW)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enabled the Brute-Force protection option directly from the Settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed window position to auto-adjust on small screens."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Major upgrade to the protection for wp-login.php Brute-Force attempts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a bug in setting the permissions for read-only files so that they could still be cleaned."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes a minor bug with pass-by-reference which raises a fatal error in PHP v5.4."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced the Examine File window with better styles and more info."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed form submission of encrypted file lists to array values instead of keys."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixes other minor bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Made the Examine File window sizable."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few small bugs and removed some old code."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a link to my new twitter account."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-purposed Quick Scan to just scan the most affected areas."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Set the registration form to display by defaulted in the definition update section."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few small bugs in advanced features and directory depth determination."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a session bug to display the last directory scanned."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few small cosmetic bugs for WP 3.8."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added Spanish translation, thanks to Jelena Kovacevic and Andrew Kurtis at webhostinghub.com."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated string in the code and added a .pot file to be ready for translation into other languages."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"Select All\" checkbox to Quarantine and a new button to delete items from the Quarantine."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a trace.php file for advanced session tracking."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed undefined index bug with menu_group item in settings array."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for multisite network admin menu and the ability to restrict admin access."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a session bug in the progress bar related to the last release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a session bug that conflicted with jigoshop. (Thanks dragonflyfla)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few bug in the Whitelist definition feature."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added SSL support for definition updates and registration form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Upgraded the Whitelist feature so the it could not contain duplicates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Downgraded the WP-Login threat and changed it to an opt-in fix."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a bug in the Add to Whitelist feature so the you do not need to update the definitions after whitelisting a file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added ability to whitelist files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a major bug in yesterdays release broke the login page on some sites."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a patch for the wp-login.php brute force attack that has been going around."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Created a process to restore files from the Quarantine."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few other small bugs including path issues on Winblows server."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved security on the Quarantine directory to fix the 500 error on some servers."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed count of Quarantined items."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added htaccess security to the Uploads directory."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed progress bar bug in the last release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Linked the Quarantined items to the File Examiner."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Brought back the TimThumb and htaccess scan categories."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added a scan category for Backdoor Scripts."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed bugs in the last release."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Consolidated the Definition Types and added a Whitelist category."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Completely redesigned the Definition Updates to handle incremental updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added \"View Quarantine\" to the menu."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced Output Buffer to work with compression enabled (like ob_gzhandler)."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved the quarantine to the uploads directory to protect against blanket inclusion."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed Output Buffer issue for when ob_start has already been called."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced the Automatic Fix process to handle bad directory permissions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more detailed error messages for different types of file errors."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed calculation for Time Remaining on the Progress Bar."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Re-calibrated the Progress Bar on the Quick Scan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved overall error handling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Minor UI enhancements and a few bug fixes."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Completely revamped the scan engine to handle large file systems with better error handling."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced the results for the Automatic Fix process."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed a few other small bugs."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced the iFrame for the File Viewer and Automatic Fix process."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved error handling during the scan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed update checker script."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed major bug in unregistered scan definition interpretation that causes many false positives."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Moved the File Viewer and Automatic Fix process into an iFrame to decrease scan time and memory usage."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Enhanced the Automatic Fix process for better success with read-only files."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved code cleanup process and general efficiency of the scan."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Encoded definition update for better compatibility with some servers that have post limitation."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Improved the code cleanup expression that is applied after removal of known threats."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed return URL on Donate form."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed XSS vulnerability."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed registration to allow for multiple sites/keys to be registered under one user/email."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed \"Invalid Threat level\" Error on default values for pre-registration scans."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed auto-update path to update threat level array for all new definition updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed auto-update script to update scan level even if there is no new definitions."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added more info about registration to the readme file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Updated timthumb replacement patch to version 2.8.10 per WordPress.org plugins requirement."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed menu option placement to work just as well as a sub-menu under tools."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed option to exclude directories so that the scan would not get stuck if omitted."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added support for winblows servers using BACKSLASH directory structures."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added option to exclude directories."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Changed definition updates to write to the DB instead of a file."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added better messages about available updates."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Fixed registration form and some of the links on the settings page."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "First BETA versions available for WordPress."
+msgstr ""
+
+#. Found in faq header.
+msgid "Why should I register?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I patch the Revolution Slider vulnerability?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I patch the wp-login vulnerability?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why can't I automatically remove the \"Potential Threats\" in yellow?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I know if any of the \"Potential Threats\" are dangerous?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What if the scan gets stuck part way through?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How did I get hacked in the first place?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What can I do to prevent it from happening again?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why does sucuri.net or the Google Safe Browsing Diagnostic page still say my site is infected after I have removed the malicious code?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you register on <a href=\"http://gotmls.net/\">GOTMLS.NET</a> you will have access to download definitions of New Threats and added features like automatic removal of \"Known Threats\" and patches for specific security issues like old versions of timthumb and brute-force attacks on wp-login.php. Otherwise, this plugin only scans for \"Potential Threats\" on your site, it would then be up to you to identify the good from the bad and remove them accordingly."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Easy, if you have installed and activated my this Anti-Malware plugin on your site then it will automatically block attempts to exploit the Revolution Slider vulnerability."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The WordPress Login page is susceptible to a brute-force attack (just like any other login page). These types of attacks are becoming more prevalent these days and can sometimes cause your server to become slow or unresponsive, even if the attacks do not succeed in gaining access to your site. This plugin can apply a patch that will block access to the WordPress Login page whenever this type of attack is detected. Just click the Install Patch button under Brute-force Protection on the Anti-Malware Setting page. For more information on this subject <a href=\"http://gotmls.net/tag/wp-login-php/\">read my blog</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Many of these files may use eval and other powerful PHP function for perfectly legitimate reasons and removing that code from the files would likely cripple or even break your site so I have only enabled the Auto remove feature for \"Know Threats\"."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Click on the linked filename to examine it, then click each numbered link above the file content box to highlight the suspicious code. If you cannot tell whether or not the code is malicious just leave it alone or ask someone else to look at it for you. If you find that it is malicious please send me a copy of the file so that I can add it to my definition update as a \"Know Threat\", then it can be automatically removed."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First just leave it for a while. If there are a lot of files on your server it could take quite a while and could sometimes appear to not be moving along at all even if it really is working. If it still seems stuck after a while then try running the scan again, be sure you try both the Complete Scan and the Quick scan."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "First, don't take the attack personally. Lots of hackers routinely run automated script that crawl the internet looking for easy targets. Your site probably got hacked because you are unknowingly an easy target. This might be because you are running an older version of WordPress or have installed a Plugin or Theme with a backdoor or known security vulnerability. However, the most common type of infection I see is cross-conamination. This can happen when your site is on a shared server with other exploitable sites that got infected. In most shared hosting environments it's possible for hackers to use an one infected site to infect other sites on the same server, sometimes even if the sites are on different accounts."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There is no sure way to protect your site from every kind of hack attempt. That said, don't be an easy target. Some basic steps should include: hardening your password, keeping all your sites up-to-date, and run regular scans with Anti-Malware software like <a href=\"http://gotmls.net/\">GOTMLS.NET</a>"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "sucuri.net caches their scan results and will not refresh the scan until you click the small link near the bottom of the page that says \"Force a Re-scan\" to clear the cache. Google also caches your infected pages and usually takes some time before crawling your site again, but you can speed up that process by Requesting a Review in the Malware or Security section of <a href=\"https://www.google.com/webmasters/tools/\">Google Webmaster Tools</a>. It is a good idea to have a Webmaster Tools account for your site anyway as it can provide lots of other helpful information about your site."
+msgstr ""

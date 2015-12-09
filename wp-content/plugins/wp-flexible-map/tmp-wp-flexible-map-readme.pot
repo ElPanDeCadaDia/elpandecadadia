@@ -1,0 +1,614 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Flexible Map"
+msgstr ""
+
+#. Short description.
+msgid "Embed Google Maps shortcodes in pages and posts, either by centre coordinates or street address, or by URL to a Google Earth KML file."
+msgstr ""
+
+#. Screenshot description.
+msgid "<code>[flexiblemap center=\"-32.918657,151.797894\" title=\"Nobby's Head\" zoom=\"14\" width=\"500\" height=\"400\" directions=\"true\" maptype=\"satellite\"]</code>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<code>[flexiblemap address=\"116 Beaumont Street Hamilton NSW Australia\" title=\"Raj's Corner\" description=\"SWMBO's favourite Indian diner\" width=\"500\" height=\"400\" directions=\"true\"]</code>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<code>[flexiblemap src=\"http://webaware.com.au/maps/example-toronto.kml?v=2\" width=\"500\" height=\"400\" maptype=\"satellite\"]</code>"
+msgstr ""
+
+#. Screenshot description.
+msgid "<code>[flexiblemap center=\"-34.916721,138.828878\" width=\"500\" height=\"400\" title=\"Adelaide Hills\" directions=\"true\" showdirections=\"true\" directionsfrom=\"Adelaide\"]</code>"
+msgstr ""
+
+#. Found in description header.
+msgid "Sponsorships"
+msgstr ""
+
+#. Found in description header.
+msgid "Translations"
+msgstr ""
+
+#. Found in description list item.
+msgid "by centre coordinates"
+msgstr ""
+
+#. Found in description list item.
+msgid "by street address"
+msgstr ""
+
+#. Found in description list item.
+msgid "by URL to a Google Earth KML file"
+msgstr ""
+
+#. Found in description list item.
+msgid "no special Google Maps key is required -- uses the latest stable Google Maps API"
+msgstr ""
+
+#. Found in description list item.
+msgid "simple shortcode for adding maps to pages/posts"
+msgstr ""
+
+#. Found in description list item.
+msgid "PHP function <code>flexmap_show_map()</code> for theme and plugin developers"
+msgstr ""
+
+#. Found in description list item.
+msgid "supports multiple maps on a page/post"
+msgstr ""
+
+#. Found in description list item.
+msgid "supports responsive design -- specify width / height in percent"
+msgstr ""
+
+#. Found in description list item.
+msgid "map marker doesn't have to be the centre of the map"
+msgstr ""
+
+#. Found in description list item.
+msgid "optional description for info window"
+msgstr ""
+
+#. Found in description list item.
+msgid "optional directions link for info window"
+msgstr ""
+
+#. Found in description list item.
+msgid "directions can be dropped into any div element with an ID"
+msgstr ""
+
+#. Found in description list item.
+msgid "minimal dependencies -- just WordPress and the Google Maps API"
+msgstr ""
+
+#. Found in description list item.
+msgid "directions on KML maps generously sponsored by <a href=\"http://www.rogerlos.com/\">Roger Los</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Czech (cs) -- <a href=\"https://profiles.wordpress.org/caslavak/\">caslavak</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Dutch (nl) -- <a href=\"http://www.lijndiensten.com/\">Ivan Beemster</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "French (fr) -- <a href=\"https://profiles.wordpress.org/mister-klucha/\">mister klucha</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "German (de) -- <a href=\"http://www.caribdesign.com/\">Carib Design</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Greek (el) -- <a href=\"https://profiles.wordpress.org/ironwiller/\">Pantelis Orfanos</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hungarian (hu) -- Krisztián Vörös"
+msgstr ""
+
+#. Found in description list item.
+msgid "Norwegian: Bokmål (nb_NO) -- <a href=\"http://www.neonnero.com/\">neonnero</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Norwegian: Nynorsk (nn_NO) -- <a href=\"http://www.neonnero.com/\">neonnero</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Portuguese (pt_BR) -- Alexsandro Santos and Paulo Henrique"
+msgstr ""
+
+#. Found in description list item.
+msgid "Spanish (es) -- <a href=\"https://profiles.wordpress.org/edurramos/\">edurramos</a>"
+msgstr ""
+
+#. Found in description list item.
+msgid "Welsh (cy) -- <a href=\"https://profiles.wordpress.org/dtom-ct-wp/\">Dylan</a>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Flexible Map allows you to add Google Maps to your WordPress website with simple shortcodes."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<strong>Features:</strong>"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Thanks for sponsoring new features on WP Flexible Maps!"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Many thanks to the generous efforts of our translators:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The initial translations for all other languages were made using Google Translate, so it's likely that some will be truly awful! If you'd like to help out by translating this plugin, please <a href=\"https://translate.wordpress.org/projects/wp-plugins/wp-flexible-map\">sign up for an account and dig in</a>."
+msgstr ""
+
+#. Found in installation header.
+msgid "Attributes for centre coordinates or street address map"
+msgstr ""
+
+#. Found in installation header.
+msgid "Attributes for KML map"
+msgstr ""
+
+#. Found in installation header.
+msgid "Attributes for all maps"
+msgstr ""
+
+#. Found in installation header.
+msgid "Calling from templates or plugins"
+msgstr ""
+
+#. Found in installation list item.
+msgid "Upload this plugin to your /wp-content/plugins/ directory."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Activate the plugin through the 'Plugins' menu in WordPress."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Add the shortcode <code>[flexiblemap]</code> to your pages / posts to embed maps"
+msgstr ""
+
+#. Found in installation list item.
+msgid "specify the map's coordinates or street address"
+msgstr ""
+
+#. Found in installation list item.
+msgid "specify the URL to a KML file (e.g. from Google Earth)"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>center</strong>: coordinates of centre in latitude,longitude, e.g. <em>center=\"-34.916721,138.828878\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>address</strong>: street address of map centre, e.g. <em>address=\"116 Beaumont Street Hamilton NSW Australia\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>marker</strong>: coordinates of the marker if different from the centre, in latitude,longitude, e.g. <em>marker=\"-34.916721,138.828878\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>title</strong>: title of the marker, displayed in a text bubble, e.g. <em>title=\"Adelaide Hills\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>link</strong>: URL to link from the marker title, e.g. <em>link=\"http://example.com/\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>linktarget</strong>: where marker link opens, e.g. <em>linktarget=\"_blank\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>linktext</strong>: marker link text, overriding the default text"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>icon</strong>: URL to icon for the marker, e.g. <em>icon=\"http://maps.google.com/mapfiles/kml/pal3/icon29.png\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>description</strong>: a description of the marker location (can have HTML links), e.g. <em>description=\"Lorem ipsum dolor sit amet\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>html</strong>: some simple HTML to add to the info window, e.g. <em><code>&lt;img src='http://example.com/logo.img' /&gt;</code></em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>showinfo</strong>: show the marker's info window when the map loads, from [true, false], e.g. <em>showinfo=\"false\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>src</strong>: the URL for a KML file to load map details from, e.g. <em>src=\"http://example.com/map.kml\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>targetfix</strong>: prevent links from opening in new window, from [true, false], e.g. <em>targetfix=\"true\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>kmlcache</strong>: ask Google Maps to use a new map instead of cached map, specified in minutes (90 minutes), hours (2 hours), days (1 day), or \"none\"; minimum 5 minutes, default \"none\""
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>width</strong>: width in pixels or valid CSS units, e.g. <em>width=\"100%\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>height</strong>: height in pixels or valid CSS units, e.g. <em>height=\"400px\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>id</strong>: the CSS id of the container div (instead of a random generated unique ID), e.g. <em>id=\"my_map\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>zoom</strong>: zoom level as an integer, larger is closer, e.g. <em>zoom=\"16\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>maptype</strong>: type of map to show, from [roadmap, satellite, hybrid, terrain], e.g. <em>maptype=\"satellite\"</em>; default=roadmap"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>maptypes</strong>: types of maps in the map type controls, e.g. <em>maptypes=\"custom_type,satellite\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>hidemaptype</strong>: hide the map type controls, from [true, false], e.g. <em>hidemaptype=\"true\"</em>; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>hidepanning</strong>: hide the panning controls, from [true, false], e.g. <em>hidepanning=\"true\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>hidezooming</strong>: hide the zoom controls, from [true, false], e.g. <em>hidezooming=\"true\"</em>; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>hidestreetview</strong>: hide the street view control, from [true, false], e.g. <em>hidestreetview=\"true\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>hidescale</strong>: hide the map scale, from [true, false], e.g. <em>hidescale=\"true\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>zoomstyle</strong>: which zoom control style, from [small, large, default]; default=small"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>scrollwheel</strong>: enable zoom with mouse scroll wheel, from [true, false], e.g. <em>scrollwheel=\"true\"</em>; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>draggable</strong>: enable dragging to pan, from [true, false], e.g. <em>draggable=\"true\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dblclickzoom</strong>: enable double-clicking to zoom, from [true, false], e.g. <em>dblclickzoom=\"true\"</em>; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>directions</strong>: show directions link in text bubble; by default, directions will be displayed underneath map, but you can specify the element ID for directions here, e.g. <em>directions=\"true\", directions=\"my-dir-id\"</em>; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dirdraggable</strong>: allow directions to be draggable, from [true, false]; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dirnomarkers</strong>: suppress start and end markers when showing directions, from [true, false]; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dirshowsteps</strong>: show or suppress directions steps when showing directions, from [true, false]; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dirshowssearch</strong>: show or suppress directions search form when showing directions, from [true, false]; default=true"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>showdirections</strong>: show directions when the map loads, e.g. <em>showdirections=\"true\"</em>; default=false"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>directionsfrom</strong>: initial from: location for directions, e.g. <em>directionsfrom=\"Sydney\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dirunitsystem</strong>: force directions units to metric or imperial, from [metric, imperial, auto]; default=auto"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>dirtravelmode</strong>: select directions mode, from [driving, bicycling, walking, transit]; default=driving"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>region</strong>: specify region to help localise address searches for street address map and directions, taken from the list of <a href=\"https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2\">country codes</a> e.g. <em>region=\"AU\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<strong>locale</strong>: use a specific locale (language) for messages like the text of the Directions link, e.g. <em>locale=\"nl-BE\"</em>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_google_maps_api_args</code>: filter the array of arguments that will be passed to the Google Maps API, e.g. <code>'v'=&gt;'3.exp'</code>, <code>'sensor'=&gt;'false'</code>"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_google_maps_api_url</code>: filter the Google Maps API URL, as a string"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_shortcode_attrs</code>: filter the array of shortcode attributes, e.g. change the width and height"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_shortcode_styles</code>: filter the array of inline styles applied to the div wrapping the map, e.g. remove width and height so that it can be specified in the theme's stylesheets"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_shortcode_html</code>: filter the generated HTML, e.g. wrap another div around it, add a link to Google Maps, add some additonal script, etc."
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_shortcode_script</code>: filter the generated JavaScript"
+msgstr ""
+
+#. Found in installation list item.
+msgid "<code>flexmap_custom_map_types</code>: register custom Google Maps map types"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "There are two ways to load maps with this plugin:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "To add a Flexible Map to a post or a page, add a shortcode <code>[flexiblemap]</code> and give it some useful attributes. A map can either be specified using centre coordinates or street address, or by loading a KML file."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "Either the center or the address paramater is required. If you provide both, the centre coordinates will be used for the map centre, but directions will use the street address. (This will prevent directions from telling people how to get to the destination opposite yours!)"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<em>Samples</em>:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "<em>Sample</em>:"
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "There is a PHP function <code>flexmap_show_map()</code> for theme and plugin developers. All of the same attributes for the shortcode can be passed to the function in an associative array. If you want it to return the map as a string without output to screen, add \"echo\"=&gt;\"false\" to array of attributes."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "There are also some filter hooks that allow you to change the behaviour of the plugin."
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "For more information and examples, see <a href=\"http://flexible-map.webaware.net.au/\">the reference website</a>."
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: Brazilian Portuguese translation (thanks, Alexsandro Santos and Paulo Henrique!)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: JavaScript error on KML map marker click when marker has no description"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: can show directions without having a marker title (or infowindow)"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: <code>linktarget</code> attribute for changing where marker links open, e.g. <code>linktarget=\"_blank\"</code>"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: <code>linktext</code> attribute for changing marker link text"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: <code>dirunitsystem</code> attribute for forcing directions units to metric or imperial"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "added: <code>dirtravelmode</code> attribute for selecting directions by driving, bicycling, walking, or transit"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: bump version of Google Maps API to 3.20"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: always load Google Maps API on HTTPS"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fixed: sometimes vertical copyright message on IE8 with some themes"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "changed: bump version of Google Maps API to 3.19 (resolves some Safari styling issues)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "The full changelog can be found <a href=\"https://github.com/webaware/flexible-map/blob/master/changelog.md\">on GitHub</a>. Recent entries:"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why do I get \"The Google Maps API server rejected your request\"?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Where are the settings?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Can I add multiple markers to a map?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why won't my KML map update when I edit the KML file?"
+msgstr ""
+
+#. Found in faq header.
+msgid "What parts of KML are supported?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why won't the map show my place when I use the address attribute?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I use centre coordinates for the map and have directions to my address?"
+msgstr ""
+
+#. Found in faq header.
+msgid "How do I get the maps to use my language?"
+msgstr ""
+
+#. Found in faq header.
+msgid "You've translated my language badly / it's missing"
+msgstr ""
+
+#. Found in faq header.
+msgid "The map is broken in tabs / accordions"
+msgstr ""
+
+#. Found in faq header.
+msgid "How can I get access to the map object?"
+msgstr ""
+
+#. Found in faq header.
+msgid "Why won't the map load on my AJAX single-page website?"
+msgstr ""
+
+#. Found in faq header.
+msgid "I have CloudFlare Rocketscript turned on and the map doesn't work"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If Google Maps is telling you this:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Google Maps API server rejected your request. The \"sensor\" parameter specified in the request must be set to either \"true\" or \"false\"."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "then something on your website is stripping the query strings on scripts. It's probably a misguided attempt to make your website more secure, and it's a dumb idea. Some so-called \"security\" plugins do this, and I've heard of a theme doing it too. You need to find out what is doing it and fix it, or remove it. Start by deactivating plugins that pretend to enhance security and retest, then try switching your theme to twentytwelve to see if the theme is the problem."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are none! You just need to add some attributes to your shortcode telling the map what to do."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Of course, in WordPress there is a plugin for everything :) so if you <em>want</em> settings, please install the <a href=\"https://wordpress.org/plugins/wp-flexible-map-options/\">Flexible Map Options plugin</a>. That plugin lets you set some defaults so that if you use the same attributes over and over, you can put them all in one place."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Using a KML file, you can have as many markers on a map as you like, with as much detail in the info windows. With KML you can also change marker icons and add other nice features. You can generate your KML file from an application like Google Earth, or you can create it yourself (in a text editor or with your own programming). <a href=\"https://developers.google.com/kml/\">Learn more about KML</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Google Maps API caches the KML file, so it can take a while for your new changes to appear. To force a change, append a URL query parameter with a number (known as a cache buster) and increment the number each time you change the KML file. A nice simple and commonly used parameter name is v (for version), like this: http://example.com/my-map.kml?v=2"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If your map is auto-generated or changes frequently, add the <code>kmlcache</code> attribute to ask Google to fetch a new copy periodically. You can specify the interval in minutes (e.g. \"90 minutes\"), hours (e.g. \"2 hours\"), or days (e.g. \"1 day\"). The minimum interval is 5 minutes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Google Maps API supports many commonly used KML elements, but has some restrictions. Read about <a href=\"https://developers.google.com/kml/documentation/mapsSupport\">Google Maps support for KML</a> in the developers' guide, and also see the list of <a href=\"https://developers.google.com/kml/documentation/kmlelementsinmaps\">KML elements supported in Google Maps</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When you use a street address instead of centre coordinates, you are effectively searching Google Maps for your location. Try being very specific about your address, including your town / city, state / province, and country to make sure Google can find where you mean. You can also specify your region with the <code>region</code> attribute to help Google Maps refine its search. If the marker is still in the wrong place, you might need to specify the location using centre coordinates instead."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When you use just centre coordinates for your map, the directions may send people to the location <em>opposite</em> your location! Yes, I know... anyway, if you specify both the centre coordinates and the street address, the map will be centred correctly and the directions will be to your address."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin uses localised messages for things like the Directions link and the default message on links in info windows. If you have your <a href=\"http://codex.wordpress.org/WordPress_in_Your_Language\">WordPress installation set to use your language</a>, the plugin should automatically pick it up. If you need to force it to pick up your language (or want to offer a different language), use the <code>locale</code> attribute, e.g. <code>locale=\"ru\"</code> or <code>locale=\"zh-TW\"</code>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Google Maps will use the locale information from your web browser to help display maps and directions in your language (see your browser's language settings). If you want to force the Google Maps language for every map on a page, you can use a filter hook. For example, here's how to force the Google Maps language to match the language of the page / post its on (e.g. when using WPML translated content):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The initial translations were made using Google Translate, so it's likely that some will be truly awful! If you'd like to help out by translating this plugin, please <a href=\"https://translate.wordpress.org/projects/wp-plugins/wp-flexible-map\">sign up for an account and dig in</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "When you hide the map in a tab, and then click on the tab to reveal its contents, sometimes the map doesn't know how big to draw until it is revealed. Since v1.9.0 most such problems are automatically resolved for modern browsers, including Internet Explorer 11 or later. If you need to support earlier versions that don't support <a href=\"http://caniuse.com/#feat=mutationobserver\">MutationObserver</a>, add some script to your website to handle this yourself."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For jQuery UI tabs and accordions, download the .php file from <a href=\"https://gist.github.com/webaware/05b27e3a99ccb00200f5\">this gist</a>, and install / activate it. If you'd prefer to add the jQuery code yourself, add this somewhere on the page (e.g. in your theme's footer):"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For jQuery UI tabs versions 1.8 or older:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "For tabs in jQuery Tools, see <a href=\"https://wordpress.org/support/topic/tabs-map#post-3784706\">this support topic</a>."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "If you want to add your own scripting for the map, you can get the map object by identifying the FlexibleMap global variable for your map, and asking it to getMap(). By default, each FlexibleMap is given a randomly generated ID and the global variable name is derived from that. The map's containing div has a data property with this global variable name. Here's some sample jQuery code that gets the map object for the (first) map:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Alternatively, you can specify the ID used for a given map, and it will then derive the global variable name from that. Here's a sample shortcode:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "And here's some sample jQuery code:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin only loads the required JavaScript scripts when it knows that they are needed. When your website uses AJAX to load a page, the normal WordPress footer action for that page doesn't happen, and the scripts aren't loaded. You can make the scripts load on every page by adding this snippet to the functions.php file in your theme:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "To make it load locale scripts as well, e.g. for French and Chinese language text, add them to the function call like this:"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The plugin will detect when AJAX is being used via the <a href=\"http://codex.wordpress.org/AJAX_in_Plugins\">WordPress standard method</a>, and adjust accordingly (but you still need to load the scripts as above). If another method is used, add <code>isajax='true'</code> to the shortcode attributes."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "NB: currently, only AJAX methods that parse script tags will work correctly; this includes some <a href=\"http://stackoverflow.com/q/2203762/911083\">jQuery methods</a> (but <a href=\"http://stackoverflow.com/a/2699905/911083\">not all</a>). A future version of the plugin will be more AJAX friendly."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Either turn off CloudFlare Rocketscript :) or install the <a href=\"https://gist.github.com/webaware/8949605\">Flxmap No Rocketscript</a> plugin by loading that file into your website's wp-content/plugins folder and activating through the plugins admin page. Use the plugin if you still want Rocketscript to manage all of your other scripts but leave the Flexible Map scripts alone."
+msgstr ""

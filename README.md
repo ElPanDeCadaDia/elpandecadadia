@@ -1,0 +1,1 @@
+##Editar el archivo WP-CONFIG.PHP con los valores de la db local
